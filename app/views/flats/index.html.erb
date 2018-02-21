@@ -1,0 +1,6 @@
+<h1>Welcome</h1>
+
+<% @flats.each do |flat| %>
+<h3> <%= link_to flat.name, flat_path(flat.id) %> </h3>
+<% end %>
+
